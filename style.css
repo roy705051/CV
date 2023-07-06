@@ -1,0 +1,171 @@
+* {
+    background-image: linear-gradient(160deg,#AA77FF,#98EECC);
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .navbar {
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(1, 102, 225, 0.485) 0%, rgba(253, 234, 23, 0.704) 60%);
+    height: 70px;
+    border: 1px solid rgb(91, 88, 88);
+    justify-content:space-around;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+  .navbar p {
+    background: transparent;
+    font-family: "klavika-web", sans-serif;
+    font-style: bold;
+    font-weight: 500;
+    font-size:22px;
+  }
+  nav p:hover{
+    color:rgba(204, 54, 9, 0.767);
+    font-size: 23px;
+    cursor: pointer;
+    text-decoration: underline rgb(189, 189, 197);
+}
+  .cover {
+    margin-top: 3px;
+    width: 100%;
+    height: 330px;
+    background-image: url(./image/coverimg.jpg);
+  }
+
+  .container {
+    padding:1%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+  }
+  
+  
+  .profile div {
+    border-radius: 20px;
+  }
+  .profile img {
+    z-index: 1;
+    width: 80%;
+    position: relative;
+    top: -130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    box-shadow:3px 3px 3px 4px #a4cf76d7 ;
+  }
+  .profile h3 {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 0;
+    width: 80%;
+    position: relative;
+    top: -80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+.aboutme{
+    font-size: larger;
+    width:90%;
+    margin-left:10%;
+    background:transparent
+}
+span{
+   margin-left: 45%;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px grey;
+}
+
+.bio{
+    border: 3px solid rgba(128, 128, 128, 0.959);
+    margin: 3%;
+    padding: 5%; 
+    border-radius: 1% 50px;
+    color: black;
+    font-weight: 100px;
+   font-size: 25px;
+}
+
+.skillsedu{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
+    margin: 2%;
+    background-color: transparent;
+}
+
+.educate{
+  font-size:18px;
+    text-align: center;
+    padding: 4%;
+    border-radius: 1% 50px;
+    border: 3px solid rgba(128, 128, 128, 0.959);
+}
+.educate:hover{
+  transform:scale(1.03);
+  
+}
+.skills:hover{
+  transform:scale(1.03);
+  
+}
+.bio:hover{
+  transform:scale(1.03);
+  
+}
+.hedu{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100px;
+    font-family: bold;
+
+}
+.skills{
+    width: 40%;
+    padding: 3%;
+    padding-right: 2%;
+    border: 3px solid rgba(128, 128, 128, 0.959);
+    border-radius: 1% 50px;
+   
+}
+.logo{
+    width:7%; height:100%; border-radius: 50%;
+    margin-right:40%;
+    border: 2px solid  #AA77FF;
+}
+/*button*/
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #003a73dd 0%, #e3e358  51%, #003973  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #ea70d5a9;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+  footer{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+
+}
+ 
